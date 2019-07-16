@@ -1,0 +1,107 @@
+.themeColor{
+    background-color: #11204c;
+}
+
+.navBarCenter{
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.showEstates{
+
+    padding-top: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+
+}
+
+.estateCardBox{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+.estateCard{
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    float: left;
+    margin: 5px 10px 5px 0px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.purpleBorder{
+
+    border-color: #11204C!important;
+
+}
+
+.estateType{
+
+    border-radius: 100%;
+    background-color: #d8d8d8;
+    width: 2vw;
+    min-width: 2vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1vw;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 2;
+    position: absolute;
+    margin-top: 0.4vw;
+    margin-left: 12vw;
+
+}
+
+.thumbnailImg{
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+
+}
+
+.noMoreResults{
+
+    width: 100%;
+
+}
+
+.badge-theme{
+    color: #fff;
+    background-color: #11204C;
+    border-color: #11204C;
+}
+
+.red{
+    background: red;
+}
+
+.green{
+    background: green;
+}
+
+.theme{
+    background: #11204C;
+}
